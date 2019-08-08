@@ -63,7 +63,7 @@ describe "reduce_to_any_true returns true when a truthy value is present" do
 
 def 'reduce_to_any_true returns false when no truthy value is present'(reduce_to_any_true(source_array)
   # reduces correctly
-    
+
   end
 
   'reduce_to_any_true returns false when no truthy value is present'(reduce_to_any_true,[ false, nil, nil, nil])
