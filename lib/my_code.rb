@@ -15,7 +15,7 @@ end
 
 def 'map_to_double returns an array with the original values multiplied by 2' (value, map_to_double)
   # transforms correctly
-    
+
   end
 
   'map_to_double' (value, [1, 2, 3, -9])
@@ -29,14 +29,14 @@ end
 
 def 'my own reduce-like methods' (reduce_to_total(source_array))
   # reduce_to_total returns a running total when not given a starting point
-    
+
   end
 
   'my own reduce-like methods'(reduce_to_total[1,2,3])
 
 def 'reduce_to_total returns a running total when given a starting point'(reduce_to_total(source_array, starting_point))
   # reduces correctly
-    
+
   end
 
   'reduce_to_total returns a running total when given a starting point'(reduce_to_total([1,2,3], 100))
