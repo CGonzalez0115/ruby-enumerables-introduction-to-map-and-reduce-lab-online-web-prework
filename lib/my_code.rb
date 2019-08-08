@@ -60,12 +60,12 @@ describe "reduce_to_any_true returns true when a truthy value is present" do
     source_array = [ false, nil, nil, nil, true]
     expect(reduce_to_any_true(source_array)).to eq(true)
   end
-end
 
-describe "reduce_to_any_true returns false when no truthy value is present" do
-  it "reduces correctly" do
-    source_array = [ false, nil, nil, nil]
-    expect(reduce_to_any_true(source_array)).to eq(false)
+def 'reduce_to_any_true returns false when no truthy value is present'(reduce_to_any_true(source_array)
+  # reduces correctly
+    
   end
+
+  'reduce_to_any_true returns false when no truthy value is present'(reduce_to_any_true,[ false, nil, nil, nil])
 end
-end)
+end
